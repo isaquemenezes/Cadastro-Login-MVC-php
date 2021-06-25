@@ -1,5 +1,5 @@
 {
-    "name": "login/conexaoacara",
+    "name": "login/cadastro",
     "description": "cadastro e login",
    
     "require": {
@@ -8,9 +8,9 @@
     },
     "autoload":{
     	"psr-4":{
-    		"Classes\\":"../classes/",
-    		"Models\\":"../models/",
-            "Traits\\":"../traits/"
+    		"Classes\\":"../Classes/",
+    		"Models\\":"../Models/",
+            "Traits\\":"../Traits/"
         },
         "files": [ ]
 

@@ -36,7 +36,7 @@ class ComposerStaticIniteda03ad4b356a450abd3bc235434f528
         ),
         'Traits\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/../traits',
+            0 => __DIR__ . '/../..' . '/../Traits',
         ),
         'PHPMailer\\PHPMailer\\' => 
         array (
@@ -44,11 +44,11 @@ class ComposerStaticIniteda03ad4b356a450abd3bc235434f528
         ),
         'Models\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/../models',
+            0 => __DIR__ . '/../..' . '/../Models',
         ),
         'Classes\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/../classes',
+            0 => __DIR__ . '/../..' . '/../Classes',
         ),
     );
 
