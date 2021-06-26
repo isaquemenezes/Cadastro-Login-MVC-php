@@ -26,6 +26,8 @@ class ClassLayout{
     public static function setFooter()
     {
         #JAVASCRIPT
+        // $html.="<script src='https://www.google.com/recaptcha/api.js?render=".SITEKEY."'></script>"; Google ReCaptcha
+
         $html="</body>\n";
         $html.="</html>";
         echo $html;

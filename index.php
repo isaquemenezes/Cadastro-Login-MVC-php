@@ -1,5 +1,10 @@
 <?php
 
     header("Content-Type: text/html; charset=utf-8");
-    $dispatch=new \Classes\ClassDispatch();
+
+    include("Config/config.php");
+    include(DIRREQ."Lib/vendor/autoload.php");
+    include(DIRREQ."Helpers/variables.php");
+    
+    $dispatch=new Classes\ClassDispatch();
     include($dispatch->getInclusao());
