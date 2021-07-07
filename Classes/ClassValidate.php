@@ -98,7 +98,19 @@
         #Validação final do cadastro
         public function validateFinalCad($arrVar)
         {
-            $this->cadastro->insertCad($arrVar);
+            if(count($this->getErro())>0){
+                $arrResponse=[
+                    "retorno"=>"erro",
+                    "erros"=>$this->getErro()
+                ];
+            }else{
+                $arrResponse=[
+                    "retorno"=>"success",
+                    "erros"=>null
+                ];
+                /*$this->cadastro->insertCad($arrVar);*/
+            }
+            return json_encode($arrResponse);
         }
 
     }

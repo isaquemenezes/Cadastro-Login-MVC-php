@@ -6,8 +6,9 @@
 
 <form name="formCadastro" id="formCadastro" action="<?php echo DIRPAGE.'controllers/controllerCadastro'; ?>" method="post">
     <div class="cadastro float center">
+        <div class="retornoCad"></div>
         
-        <!-- <input class="float w100 h40" type="hidden" id="g-recaptcha-response" name="g-recaptcha-response" required> -->
+        <!-- Google ReCaptcha <input class="float w100 h40" type="hidden" id="g-recaptcha-response" name="g-recaptcha-response" required> -->
 
         <input class="float w100 h40" type="text" id="nome" name="nome" placeholder="Nome:" required>
         <input class="float w100 h40" type="email" id="email" name="email" placeholder="Email:" required>

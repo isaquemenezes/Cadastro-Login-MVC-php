@@ -9,4 +9,4 @@
 
     // $validate->validateCaptcha($gRecaptchaResponse); Google ReCaptcha
 
-    $validate->validateFinalCad($arrVar);
+    echo $validate->validateFinalCad($arrVar);

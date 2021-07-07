@@ -25,7 +25,7 @@ class ClassLayout{
     #Setar as tags do footer
     public static function setFooter()
     {
-        #JAVASCRIPT
+        $html="<script src='".DIRPAGE."lib/js/zepto.min.js'></script>\n";
         // $html.="<script src='https://www.google.com/recaptcha/api.js?render=".SITEKEY."'></script>"; Google ReCaptcha
 
         $html="</body>\n";
